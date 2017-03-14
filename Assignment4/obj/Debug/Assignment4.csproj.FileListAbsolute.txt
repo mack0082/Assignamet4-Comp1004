@@ -1,0 +1,10 @@
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\bin\Debug\Assignment4.exe.config
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.csprojResolveAssemblyReference.cache
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.SplashForm.resources
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.StartForm.resources
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.Properties.Resources.resources
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.GenerateResource.Cache
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\bin\Debug\Assignment4.exe
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\bin\Debug\Assignment4.pdb
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.exe
+c:\users\priyanka\documents\visual studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.pdb
