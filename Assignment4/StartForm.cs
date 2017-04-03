@@ -18,9 +18,24 @@ namespace Assignment4
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void startOrder_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            SelectForm Select = new SelectForm();
+            Select.Show();
+        }
 
+        private void savedOrder_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ProductInfo Product = new ProductInfo();
+            Product.Show();
+            
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(1);
         }
     }
 }

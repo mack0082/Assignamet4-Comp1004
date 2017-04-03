@@ -29,41 +29,43 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.startOrder = new System.Windows.Forms.Button();
+            this.savedOrder = new System.Windows.Forms.Button();
+            this.exit = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // startOrder
             // 
-            this.button1.Location = new System.Drawing.Point(90, 181);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Start a New Order";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.startOrder.Location = new System.Drawing.Point(90, 181);
+            this.startOrder.Name = "startOrder";
+            this.startOrder.Size = new System.Drawing.Size(120, 23);
+            this.startOrder.TabIndex = 0;
+            this.startOrder.Text = "Start a New Order";
+            this.startOrder.UseVisualStyleBackColor = true;
+            this.startOrder.Click += new System.EventHandler(this.startOrder_Click);
             // 
-            // button2
+            // savedOrder
             // 
-            this.button2.Location = new System.Drawing.Point(90, 210);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Open a Saved Order";
-            this.button2.UseVisualStyleBackColor = true;
+            this.savedOrder.Location = new System.Drawing.Point(90, 210);
+            this.savedOrder.Name = "savedOrder";
+            this.savedOrder.Size = new System.Drawing.Size(120, 23);
+            this.savedOrder.TabIndex = 1;
+            this.savedOrder.Text = "Open a Saved Order";
+            this.savedOrder.UseVisualStyleBackColor = true;
+            this.savedOrder.Click += new System.EventHandler(this.savedOrder_Click);
             // 
-            // button3
+            // exit
             // 
-            this.button3.Location = new System.Drawing.Point(90, 242);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = true;
+            this.exit.Location = new System.Drawing.Point(90, 242);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(120, 23);
+            this.exit.TabIndex = 2;
+            this.exit.Text = "Exit";
+            this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // textBox1
             // 
@@ -90,10 +92,11 @@
             this.ClientSize = new System.Drawing.Size(294, 274);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.exit);
+            this.Controls.Add(this.savedOrder);
+            this.Controls.Add(this.startOrder);
             this.Name = "StartForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -103,9 +106,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button startOrder;
+        private System.Windows.Forms.Button savedOrder;
+        private System.Windows.Forms.Button exit;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

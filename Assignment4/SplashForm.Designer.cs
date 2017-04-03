@@ -47,6 +47,7 @@
             // 
             // SplashFormTimer
             // 
+            this.SplashFormTimer.Enabled = true;
             this.SplashFormTimer.Interval = 3000;
             this.SplashFormTimer.Tick += new System.EventHandler(this.SplashFormTimer_Tick);
             // 
@@ -60,7 +61,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SplashForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "SplashForm";
             this.Load += new System.EventHandler(this.SplashForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

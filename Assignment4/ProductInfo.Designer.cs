@@ -1,6 +1,6 @@
 ﻿namespace Assignment4
 {
-    partial class SelectForm
+    partial class ProductInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // SelectForm
+            // ProuductInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "SelectForm";
+            this.Name = "ProuductInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SelectForm";
+            this.Text = "ProuductInfoForm";
             this.ResumeLayout(false);
 
         }
