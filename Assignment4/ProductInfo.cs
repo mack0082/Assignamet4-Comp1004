@@ -29,5 +29,12 @@ namespace Assignment4
             Product.Show();
 
         }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Order Product = new Order();
+            Product.Show();
+        }
     }
 }

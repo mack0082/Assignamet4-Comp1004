@@ -14,3 +14,4 @@ C:\Users\priyanka\Documents\Visual Studio 2015\Projects\Assignment4\Assignment4\
 C:\Users\priyanka\Documents\Visual Studio 2015\Projects\Assignment4\Assignment4\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\priyanka\Documents\Visual Studio 2015\Projects\Assignment4\Assignment4\bin\Debug\EntityFramework.xml
 C:\Users\priyanka\Documents\Visual Studio 2015\Projects\Assignment4\Assignment4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\priyanka\Documents\Visual Studio 2015\Projects\Assignment4\Assignment4\obj\Debug\Assignment4.Order.resources

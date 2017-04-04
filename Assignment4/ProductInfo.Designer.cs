@@ -37,35 +37,35 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.modelTextBox = new System.Windows.Forms.TextBox();
+            this.platformTextBox = new System.Windows.Forms.TextBox();
+            this.manuTextBox = new System.Windows.Forms.TextBox();
+            this.osTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.webCamTextBox = new System.Windows.Forms.TextBox();
+            this.cpuSpeedTextBox = new System.Windows.Forms.TextBox();
+            this.cpuTypeTextBox = new System.Windows.Forms.TextBox();
+            this.gpuTypeTextBox = new System.Windows.Forms.TextBox();
+            this.cpuNumberTextBox = new System.Windows.Forms.TextBox();
+            this.cpuBrandTextBox = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
+            this.hddTextBox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lcdSizeTextBox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.memoryTextBox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.proIDTextBox = new System.Windows.Forms.TextBox();
             this.conditionTextBox = new System.Windows.Forms.TextBox();
             this.costTextBox = new System.Windows.Forms.TextBox();
-            this.platformTextBox = new System.Windows.Forms.TextBox();
-            this.manuTextBox = new System.Windows.Forms.TextBox();
-            this.osTextBox = new System.Windows.Forms.TextBox();
-            this.modelTextBox = new System.Windows.Forms.TextBox();
-            this.memoryTextBox = new System.Windows.Forms.TextBox();
-            this.lcdSizeTextBox = new System.Windows.Forms.TextBox();
-            this.hddTextBox = new System.Windows.Forms.TextBox();
-            this.cpuBrandTextBox = new System.Windows.Forms.TextBox();
-            this.cpuNumberTextBox = new System.Windows.Forms.TextBox();
-            this.gpuTypeTextBox = new System.Windows.Forms.TextBox();
-            this.cpuTypeTextBox = new System.Windows.Forms.TextBox();
-            this.cpuSpeedTextBox = new System.Windows.Forms.TextBox();
-            this.webCamTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.cancel = new System.Windows.Forms.Button();
             this.next = new System.Windows.Forms.Button();
@@ -159,6 +159,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Product Info";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(212, 42);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(36, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Model";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -168,14 +177,33 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Manufacturer";
             // 
-            // label6
+            // modelTextBox
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(212, 42);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Model";
+            this.modelTextBox.Location = new System.Drawing.Point(253, 42);
+            this.modelTextBox.Name = "modelTextBox";
+            this.modelTextBox.Size = new System.Drawing.Size(345, 20);
+            this.modelTextBox.TabIndex = 19;
+            // 
+            // platformTextBox
+            // 
+            this.platformTextBox.Location = new System.Drawing.Point(87, 16);
+            this.platformTextBox.Name = "platformTextBox";
+            this.platformTextBox.Size = new System.Drawing.Size(91, 20);
+            this.platformTextBox.TabIndex = 16;
+            // 
+            // manuTextBox
+            // 
+            this.manuTextBox.Location = new System.Drawing.Point(87, 43);
+            this.manuTextBox.Name = "manuTextBox";
+            this.manuTextBox.Size = new System.Drawing.Size(91, 20);
+            this.manuTextBox.TabIndex = 17;
+            // 
+            // osTextBox
+            // 
+            this.osTextBox.Location = new System.Drawing.Point(253, 13);
+            this.osTextBox.Name = "osTextBox";
+            this.osTextBox.Size = new System.Drawing.Size(345, 20);
+            this.osTextBox.TabIndex = 18;
             // 
             // label7
             // 
@@ -232,41 +260,63 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tech Specs";
             // 
-            // label10
+            // webCamTextBox
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(196, 25);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 13);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "LCD Size";
+            this.webCamTextBox.Location = new System.Drawing.Point(444, 87);
+            this.webCamTextBox.Name = "webCamTextBox";
+            this.webCamTextBox.Size = new System.Drawing.Size(154, 20);
+            this.webCamTextBox.TabIndex = 28;
             // 
-            // label11
+            // cpuSpeedTextBox
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(181, 61);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 13);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "CPU number";
+            this.cpuSpeedTextBox.Location = new System.Drawing.Point(253, 87);
+            this.cpuSpeedTextBox.Name = "cpuSpeedTextBox";
+            this.cpuSpeedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.cpuSpeedTextBox.TabIndex = 27;
             // 
-            // label12
+            // cpuTypeTextBox
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(407, 28);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 13);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "HDD";
+            this.cpuTypeTextBox.Location = new System.Drawing.Point(83, 87);
+            this.cpuTypeTextBox.Name = "cpuTypeTextBox";
+            this.cpuTypeTextBox.Size = new System.Drawing.Size(90, 20);
+            this.cpuTypeTextBox.TabIndex = 26;
             // 
-            // label13
+            // gpuTypeTextBox
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(381, 60);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(57, 13);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "GPU Type";
+            this.gpuTypeTextBox.Location = new System.Drawing.Point(444, 58);
+            this.gpuTypeTextBox.Name = "gpuTypeTextBox";
+            this.gpuTypeTextBox.Size = new System.Drawing.Size(154, 20);
+            this.gpuTypeTextBox.TabIndex = 25;
+            // 
+            // cpuNumberTextBox
+            // 
+            this.cpuNumberTextBox.Location = new System.Drawing.Point(252, 57);
+            this.cpuNumberTextBox.Name = "cpuNumberTextBox";
+            this.cpuNumberTextBox.Size = new System.Drawing.Size(100, 20);
+            this.cpuNumberTextBox.TabIndex = 24;
+            // 
+            // cpuBrandTextBox
+            // 
+            this.cpuBrandTextBox.Location = new System.Drawing.Point(83, 57);
+            this.cpuBrandTextBox.Name = "cpuBrandTextBox";
+            this.cpuBrandTextBox.Size = new System.Drawing.Size(90, 20);
+            this.cpuBrandTextBox.TabIndex = 23;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(189, 87);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(58, 13);
+            this.label15.TabIndex = 16;
+            this.label15.Text = "Cpu speed";
+            // 
+            // hddTextBox
+            // 
+            this.hddTextBox.Location = new System.Drawing.Point(444, 25);
+            this.hddTextBox.Name = "hddTextBox";
+            this.hddTextBox.Size = new System.Drawing.Size(154, 20);
+            this.hddTextBox.TabIndex = 22;
             // 
             // label14
             // 
@@ -277,14 +327,55 @@
             this.label14.TabIndex = 15;
             this.label14.Text = "WebCam";
             // 
-            // label15
+            // lcdSizeTextBox
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(189, 87);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(58, 13);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "Cpu speed";
+            this.lcdSizeTextBox.Location = new System.Drawing.Point(253, 25);
+            this.lcdSizeTextBox.Name = "lcdSizeTextBox";
+            this.lcdSizeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.lcdSizeTextBox.TabIndex = 21;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(381, 60);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(57, 13);
+            this.label13.TabIndex = 14;
+            this.label13.Text = "GPU Type";
+            // 
+            // memoryTextBox
+            // 
+            this.memoryTextBox.Location = new System.Drawing.Point(83, 25);
+            this.memoryTextBox.Name = "memoryTextBox";
+            this.memoryTextBox.Size = new System.Drawing.Size(90, 20);
+            this.memoryTextBox.TabIndex = 20;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(407, 28);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(31, 13);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "HDD";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(181, 61);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(67, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "CPU number";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(196, 25);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(51, 13);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "LCD Size";
             // 
             // label16
             // 
@@ -316,97 +407,6 @@
             this.costTextBox.Size = new System.Drawing.Size(100, 20);
             this.costTextBox.TabIndex = 15;
             // 
-            // platformTextBox
-            // 
-            this.platformTextBox.Location = new System.Drawing.Point(87, 16);
-            this.platformTextBox.Name = "platformTextBox";
-            this.platformTextBox.Size = new System.Drawing.Size(91, 20);
-            this.platformTextBox.TabIndex = 16;
-            // 
-            // manuTextBox
-            // 
-            this.manuTextBox.Location = new System.Drawing.Point(87, 43);
-            this.manuTextBox.Name = "manuTextBox";
-            this.manuTextBox.Size = new System.Drawing.Size(91, 20);
-            this.manuTextBox.TabIndex = 17;
-            // 
-            // osTextBox
-            // 
-            this.osTextBox.Location = new System.Drawing.Point(253, 13);
-            this.osTextBox.Name = "osTextBox";
-            this.osTextBox.Size = new System.Drawing.Size(345, 20);
-            this.osTextBox.TabIndex = 18;
-            // 
-            // modelTextBox
-            // 
-            this.modelTextBox.Location = new System.Drawing.Point(253, 42);
-            this.modelTextBox.Name = "modelTextBox";
-            this.modelTextBox.Size = new System.Drawing.Size(345, 20);
-            this.modelTextBox.TabIndex = 19;
-            // 
-            // memoryTextBox
-            // 
-            this.memoryTextBox.Location = new System.Drawing.Point(83, 25);
-            this.memoryTextBox.Name = "memoryTextBox";
-            this.memoryTextBox.Size = new System.Drawing.Size(90, 20);
-            this.memoryTextBox.TabIndex = 20;
-            // 
-            // lcdSizeTextBox
-            // 
-            this.lcdSizeTextBox.Location = new System.Drawing.Point(253, 25);
-            this.lcdSizeTextBox.Name = "lcdSizeTextBox";
-            this.lcdSizeTextBox.Size = new System.Drawing.Size(100, 20);
-            this.lcdSizeTextBox.TabIndex = 21;
-            // 
-            // hddTextBox
-            // 
-            this.hddTextBox.Location = new System.Drawing.Point(444, 25);
-            this.hddTextBox.Name = "hddTextBox";
-            this.hddTextBox.Size = new System.Drawing.Size(154, 20);
-            this.hddTextBox.TabIndex = 22;
-            // 
-            // cpuBrandTextBox
-            // 
-            this.cpuBrandTextBox.Location = new System.Drawing.Point(83, 57);
-            this.cpuBrandTextBox.Name = "cpuBrandTextBox";
-            this.cpuBrandTextBox.Size = new System.Drawing.Size(90, 20);
-            this.cpuBrandTextBox.TabIndex = 23;
-            // 
-            // cpuNumberTextBox
-            // 
-            this.cpuNumberTextBox.Location = new System.Drawing.Point(252, 57);
-            this.cpuNumberTextBox.Name = "cpuNumberTextBox";
-            this.cpuNumberTextBox.Size = new System.Drawing.Size(100, 20);
-            this.cpuNumberTextBox.TabIndex = 24;
-            // 
-            // gpuTypeTextBox
-            // 
-            this.gpuTypeTextBox.Location = new System.Drawing.Point(444, 58);
-            this.gpuTypeTextBox.Name = "gpuTypeTextBox";
-            this.gpuTypeTextBox.Size = new System.Drawing.Size(154, 20);
-            this.gpuTypeTextBox.TabIndex = 25;
-            // 
-            // cpuTypeTextBox
-            // 
-            this.cpuTypeTextBox.Location = new System.Drawing.Point(83, 87);
-            this.cpuTypeTextBox.Name = "cpuTypeTextBox";
-            this.cpuTypeTextBox.Size = new System.Drawing.Size(90, 20);
-            this.cpuTypeTextBox.TabIndex = 26;
-            // 
-            // cpuSpeedTextBox
-            // 
-            this.cpuSpeedTextBox.Location = new System.Drawing.Point(253, 87);
-            this.cpuSpeedTextBox.Name = "cpuSpeedTextBox";
-            this.cpuSpeedTextBox.Size = new System.Drawing.Size(100, 20);
-            this.cpuSpeedTextBox.TabIndex = 27;
-            // 
-            // webCamTextBox
-            // 
-            this.webCamTextBox.Location = new System.Drawing.Point(444, 87);
-            this.webCamTextBox.Name = "webCamTextBox";
-            this.webCamTextBox.Size = new System.Drawing.Size(154, 20);
-            this.webCamTextBox.TabIndex = 28;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(231, 277);
@@ -434,6 +434,7 @@
             this.next.TabIndex = 18;
             this.next.Text = "Next";
             this.next.UseVisualStyleBackColor = true;
+            this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // ProductInfo
             // 

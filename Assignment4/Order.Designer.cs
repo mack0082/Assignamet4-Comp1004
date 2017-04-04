@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,6 +64,16 @@
             this.backButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
             this.finishButton = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.compGroupBox.SuspendLayout();
             this.priceGroupBox.SuspendLayout();
@@ -101,6 +112,15 @@
             // 
             // compGroupBox
             // 
+            this.compGroupBox.Controls.Add(this.textBox18);
+            this.compGroupBox.Controls.Add(this.textBox17);
+            this.compGroupBox.Controls.Add(this.textBox16);
+            this.compGroupBox.Controls.Add(this.textBox15);
+            this.compGroupBox.Controls.Add(this.textBox14);
+            this.compGroupBox.Controls.Add(this.textBox12);
+            this.compGroupBox.Controls.Add(this.textBox11);
+            this.compGroupBox.Controls.Add(this.textBox10);
+            this.compGroupBox.Controls.Add(this.textBox9);
             this.compGroupBox.Controls.Add(this.textBox5);
             this.compGroupBox.Controls.Add(this.textBox4);
             this.compGroupBox.Controls.Add(this.textBox3);
@@ -242,7 +262,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(20, 273);
+            this.label11.Location = new System.Drawing.Point(20, 277);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(57, 13);
             this.label11.TabIndex = 11;
@@ -291,9 +311,9 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(163, 221);
+            this.textBox4.Location = new System.Drawing.Point(96, 95);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(270, 20);
             this.textBox4.TabIndex = 17;
             // 
             // textBox5
@@ -368,6 +388,7 @@
             this.backButton.TabIndex = 4;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // cancelButton
             // 
@@ -377,6 +398,7 @@
             this.cancelButton.TabIndex = 5;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // finishButton
             // 
@@ -386,6 +408,76 @@
             this.finishButton.TabIndex = 6;
             this.finishButton.Text = "Finish";
             this.finishButton.UseVisualStyleBackColor = true;
+            this.finishButton.Click += new System.EventHandler(this.finishButton_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(96, 122);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(270, 20);
+            this.textBox9.TabIndex = 19;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(96, 144);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(270, 20);
+            this.textBox10.TabIndex = 20;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(96, 170);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(270, 20);
+            this.textBox11.TabIndex = 21;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(96, 194);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(270, 20);
+            this.textBox12.TabIndex = 22;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(96, 219);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(270, 20);
+            this.textBox14.TabIndex = 24;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(96, 244);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(270, 20);
+            this.textBox15.TabIndex = 25;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(96, 274);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(270, 20);
+            this.textBox16.TabIndex = 26;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(96, 302);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(270, 20);
+            this.textBox17.TabIndex = 27;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(96, 328);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(270, 20);
+            this.textBox18.TabIndex = 28;
             // 
             // Order
             // 
@@ -452,5 +544,15 @@
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Button cancelButton;
         private System.Windows.Forms.Button finishButton;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
     }
 }

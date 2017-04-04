@@ -68,5 +68,19 @@ namespace Assignment4
                 Debug.WriteLine(exception.Message);
             }
         }
+
+        private void nextbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ProductInfo Product = new ProductInfo();
+            Product.Show();
+        }
+
+        private void cancelbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StartForm Product = new StartForm();
+            Product.Show();
+        }
     }
 }

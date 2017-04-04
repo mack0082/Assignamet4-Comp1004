@@ -357,6 +357,7 @@
             this.cancelbutton.TabIndex = 1;
             this.cancelbutton.Text = "Cancel";
             this.cancelbutton.UseVisualStyleBackColor = true;
+            this.cancelbutton.Click += new System.EventHandler(this.cancelbutton_Click);
             // 
             // nextbutton
             // 
@@ -366,6 +367,7 @@
             this.nextbutton.TabIndex = 2;
             this.nextbutton.Text = "Next";
             this.nextbutton.UseVisualStyleBackColor = true;
+            this.nextbutton.Click += new System.EventHandler(this.nextbutton_Click);
             // 
             // selectionLabel
             // 
