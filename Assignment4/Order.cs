@@ -50,5 +50,28 @@ MessageBoxButtons.OK) == DialogResult.OK)
                 Application.Exit();
             }
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm aboutForm = new AboutForm();
+            aboutForm.ShowDialog();
+        }
+
+        private void backToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ProductInfo Product = new ProductInfo();
+            Product.Show();
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your form is been printed", "Print", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
